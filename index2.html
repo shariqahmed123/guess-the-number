@@ -6,14 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="main-style.css">
 </head>
 
 <body>
-
-    <input type="number" placeholder="guess the number">
-    <br>
-    <button onclick="checkNumber()">check number</button>
-
+    <div class="container">
+        <div class="box beginner">
+            <div class="content">
+                <h1>rules</h1>
+                <p>in beginner mode you guess b/w 1 tp 100</p>
+                <input type="number" placeholder="guess the number">
+                <br>
+                <button onclick="checkNumber()">check number</button>
+                <a href="index.html"> <button>Back to home</button>  </a>
+            </div>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
